@@ -1,0 +1,774 @@
+2023-06-22 05:40:31 error: [Cake\Controller\Exception\MissingActionException] Action SecondController::“() could not be found, or is not accessible. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'SecondController',
+  'action' => '“',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /Second/%E2%80%9C/controller/methode
+Referer URL: http://localhost:8765/Second/index
+2023-06-22 05:46:54 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /css/home1.css
+Referer URL: http://localhost:8765/Home/index
+2023-06-22 05:46:54 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /js/home.js
+Referer URL: http://localhost:8765/Home/index
+2023-06-22 05:46:54 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /js/query.js
+Referer URL: http://localhost:8765/Home/index
+2023-06-22 05:46:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /css/home1.css
+Referer URL: http://localhost:8765/home
+2023-06-22 05:46:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /js/home.js
+Referer URL: http://localhost:8765/home
+2023-06-22 05:46:56 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /js/query.js
+Referer URL: http://localhost:8765/home
+2023-06-22 05:46:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /js/home.js
+Referer URL: http://localhost:8765/home
+2023-06-22 05:46:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /css/home1.css
+Referer URL: http://localhost:8765/home
+2023-06-22 05:46:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /js/query.js
+Referer URL: http://localhost:8765/home
+2023-06-22 05:48:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /css/home1.css
+Referer URL: http://localhost:8765/home
+2023-06-22 05:49:12 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /css/home1.css
+Referer URL: http://localhost:8765/home
+2023-06-22 06:04:22 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /css/home1.css
+Referer URL: http://localhost:8765/Home/index
+2023-06-22 06:04:22 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Js',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /js/query.js
+Referer URL: http://localhost:8765/Home/index
+2023-06-22 06:11:05 error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'AppleTouchIconPrecomposed.png',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+2023-06-22 06:11:05 error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'AppleTouchIcon.png',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+2023-06-22 06:11:06 error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'AppleTouchIconPrecomposed.png',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+2023-06-22 06:11:06 error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'AppleTouchIcon.png',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+2023-06-22 06:11:56 error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIconPrecomposed.png could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'AppleTouchIconPrecomposed.png',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /apple-touch-icon-precomposed.png
+2023-06-22 06:11:56 error: [Cake\Http\Exception\MissingControllerException] Controller class AppleTouchIcon.png could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'AppleTouchIcon.png',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /apple-touch-icon.png
+2023-06-22 06:28:33 error: [Cake\Controller\Exception\MissingActionException] Action HomeController::display() could not be found, or is not accessible. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /
+2023-06-22 06:29:13 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8765/second
+2023-06-22 06:29:15 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /
+2023-06-22 06:31:31 error: [Cake\Http\Exception\MissingControllerException] Controller class Bob could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Bob',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Bob',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /bob
+2023-06-22 06:31:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Bob could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Bob',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Bob',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /bob
+2023-06-22 06:31:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Bob could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Bob',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Bob',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /bob
+2023-06-22 06:31:56 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php:40
+
+Request URL: /

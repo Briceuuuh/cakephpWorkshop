@@ -1,0 +1,480 @@
+2023-06-22 07:34:23 error: [Cake\Http\Exception\NotFoundException] Not Found in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php on line 70
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:55
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/not_existing
+2023-06-22 07:34:23 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/not_existing.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/templates/Pages/not_existing.php`
+- `/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/templates/Pages/not_existing.php`
+ in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages/not_existing.php',
+  'paths' => 
+  array (
+    0 => '/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/templates/',
+    1 => '/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/View/View.php:805
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php:65
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:69
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/not_existing
+2023-06-22 07:34:23 error: [Cake\Http\Exception\ForbiddenException] Forbidden in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php on line 52
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:84
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/../Layout/ajax
+2023-06-22 07:34:23 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:380
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:96
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/home
+2023-06-22 07:34:38 error: [Cake\Http\Exception\NotFoundException] Not Found in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php on line 70
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:55
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/not_existing
+2023-06-22 07:34:38 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/not_existing.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/templates/Pages/not_existing.php`
+- `/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/templates/Pages/not_existing.php`
+ in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages/not_existing.php',
+  'paths' => 
+  array (
+    0 => '/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/templates/',
+    1 => '/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/View/View.php:805
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php:65
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:69
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/not_existing
+2023-06-22 07:34:38 error: [Cake\Http\Exception\ForbiddenException] Forbidden in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php on line 52
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:84
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/../Layout/ajax
+2023-06-22 07:34:39 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:380
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:96
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/home
+2023-06-22 07:35:22 error: [Cake\Http\Exception\NotFoundException] Not Found in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php on line 70
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:55
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/not_existing
+2023-06-22 07:35:22 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/not_existing.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/templates/Pages/not_existing.php`
+- `/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/templates/Pages/not_existing.php`
+ in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages/not_existing.php',
+  'paths' => 
+  array (
+    0 => '/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/templates/',
+    1 => '/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/View/View.php:805
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php:65
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:69
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/not_existing
+2023-06-22 07:35:22 error: [Cake\Http\Exception\ForbiddenException] Forbidden in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/PagesController.php on line 52
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:84
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/../Layout/ajax
+2023-06-22 07:35:22 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:380
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/tests/TestCase/Controller/PagesControllerTest.php:96
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/phpunit/phpunit/phpunit:107
+- /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/bin/phpunit:123
+
+Request URL: /pages/home
