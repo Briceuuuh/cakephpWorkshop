@@ -1,0 +1,708 @@
+2023-06-22 10:31:51 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produit/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:31:51 notice: Undefined property: ProduitController::$Produits in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php on line 6
+Request URL: /produit/index
+Trace:
+Cake\Controller\Controller::__get() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\ProduitController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:31:54 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /Produit/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:31:54 notice: Undefined property: ProduitController::$Produits in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php on line 6
+Request URL: /Produit/index
+Trace:
+Cake\Controller\Controller::__get() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\ProduitController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:32:05 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produit/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:32:05 notice: Undefined property: ProduitController::$Produits in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php on line 6
+Request URL: /produit/index
+Trace:
+Cake\Controller\Controller::__get() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\ProduitController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:40:13 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:40:13 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:40:14 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:40:14 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:40:21 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 10:50:38 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 11:02:24 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 5
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 11:09:38 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index/add
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 11:09:52 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 11:11:41 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index/add
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 11:34:57 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 11:35:19 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits/index
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/ProduitsController.php, line 6
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 12:28:05 notice: Undefined property: UsersController::$Ussers in /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/UsersController.php on line 22
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+Trace:
+Cake\Controller\Controller::__get() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\UsersController::add() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/UsersController.php, line 22
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 12:50:43 notice: 4.4.12 - Having queryString set on exceptions is deprecated.If you are not using this attribute there is no action to take.Otherwise, enable Error.convertStatementToDatabaseException.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line: 360
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Database/Connection.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Database\Log\LoggingStatement::execute() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php, line 99
+Cake\Database\Connection::Cake\Database\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 360
+Cake\Core\Retry\CommandRetry::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php, line 70
+Cake\Database\Connection::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 363
+Cake\Database\Query::execute() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Query.php, line 255
+Cake\ORM\Table::_insert() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 2077
+Cake\ORM\Table::_processSave() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1970
+Cake\ORM\Table::Cake\ORM\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1869
+Cake\ORM\Table::Cake\ORM\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1556
+Cake\Database\Connection::transactional() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 709
+Cake\ORM\Table::_executeTransaction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1557
+Cake\ORM\Table::save() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1870
+App\Controller\UsersController::add() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/UsersController.php, line 21
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 12:53:05 notice: 4.4.12 - Having queryString set on exceptions is deprecated.If you are not using this attribute there is no action to take.Otherwise, enable Error.convertStatementToDatabaseException.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line: 360
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Database/Connection.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Database\Log\LoggingStatement::execute() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php, line 99
+Cake\Database\Connection::Cake\Database\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 360
+Cake\Core\Retry\CommandRetry::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php, line 70
+Cake\Database\Connection::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 363
+Cake\Database\Query::execute() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Query.php, line 255
+Cake\ORM\Table::_insert() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 2077
+Cake\ORM\Table::_processSave() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1970
+Cake\ORM\Table::Cake\ORM\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1869
+Cake\ORM\Table::Cake\ORM\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1556
+Cake\Database\Connection::transactional() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 709
+Cake\ORM\Table::_executeTransaction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1557
+Cake\ORM\Table::save() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1870
+App\Controller\UsersController::add() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/UsersController.php, line 21
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
+2023-06-22 12:53:19 notice: 4.4.12 - Having queryString set on exceptions is deprecated.If you are not using this attribute there is no action to take.Otherwise, enable Error.convertStatementToDatabaseException.
+/Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line: 360
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Database/Connection.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+Trace:
+deprecationWarning /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Database\Log\LoggingStatement::execute() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php, line 99
+Cake\Database\Connection::Cake\Database\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 360
+Cake\Core\Retry\CommandRetry::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php, line 70
+Cake\Database\Connection::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 363
+Cake\Database\Query::execute() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Query.php, line 255
+Cake\ORM\Table::_insert() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 2077
+Cake\ORM\Table::_processSave() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1970
+Cake\ORM\Table::Cake\ORM\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1869
+Cake\ORM\Table::Cake\ORM\{closure}() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1556
+Cake\Database\Connection::transactional() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Database/Connection.php, line 709
+Cake\ORM\Table::_executeTransaction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1557
+Cake\ORM\Table::save() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/ORM/Table.php, line 1870
+App\Controller\UsersController::add() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/src/Controller/UsersController.php, line 21
+Cake\Controller\Controller::invokeAction() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/bricehuet/delivery/TEK2/hub/cakephpWorkshop/webroot/index.php, line 40
+
